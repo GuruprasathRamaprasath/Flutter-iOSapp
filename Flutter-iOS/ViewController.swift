@@ -7,14 +7,19 @@
 //
 
 import UIKit
+import Flutter
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func didTapHere(_ sender: Any) {
+        let flutterViewController = FlutterViewController()
+        flutterViewController.setInitialRoute("/flutterView")
+        self.navigationController?.pushViewController(flutterViewController, animated: true)
+    }
+    
 }
 
