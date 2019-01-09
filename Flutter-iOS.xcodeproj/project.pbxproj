@@ -17,6 +17,8 @@
 		F63F121E21E44AFE00E3AF95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63F121C21E44AFE00E3AF95 /* LaunchScreen.storyboard */; };
 		F63F122921E44AFE00E3AF95 /* Flutter_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63F122821E44AFE00E3AF95 /* Flutter_iOSTests.swift */; };
 		F63F123421E44AFE00E3AF95 /* Flutter_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63F123321E44AFE00E3AF95 /* Flutter_iOSUITests.swift */; };
+		F6AAF68D21E5C0FB00007C83 /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AAF68C21E5C0FB00007C83 /* DashBoardViewController.swift */; };
+		F6AAF68F21E5C62D00007C83 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AAF68E21E5C62D00007C83 /* ContainerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		F63F122F21E44AFE00E3AF95 /* Flutter-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flutter-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F63F123321E44AFE00E3AF95 /* Flutter_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flutter_iOSUITests.swift; sourceTree = "<group>"; };
 		F63F123521E44AFE00E3AF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6AAF68C21E5C0FB00007C83 /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		F6AAF68E21E5C62D00007C83 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,8 @@
 				F63F121A21E44AFE00E3AF95 /* Assets.xcassets */,
 				F63F121C21E44AFE00E3AF95 /* LaunchScreen.storyboard */,
 				F63F121F21E44AFE00E3AF95 /* Info.plist */,
+				F6AAF68C21E5C0FB00007C83 /* DashBoardViewController.swift */,
+				F6AAF68E21E5C62D00007C83 /* ContainerViewController.swift */,
 			);
 			path = "Flutter-iOS";
 			sourceTree = "<group>";
@@ -395,7 +401,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6AAF68D21E5C0FB00007C83 /* DashBoardViewController.swift in Sources */,
 				F63F121621E44AFC00E3AF95 /* ViewController.swift in Sources */,
+				F6AAF68F21E5C62D00007C83 /* ContainerViewController.swift in Sources */,
 				F63F121421E44AFC00E3AF95 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,13 +7,14 @@
 //
 
 import UIKit
+import Flutter
 
 class DashBoardViewController: FlutterViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.title = "Dashboard"
+        self.setInitialRoute("/dashboardView")
     }
     
 

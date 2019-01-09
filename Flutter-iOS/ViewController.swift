@@ -17,7 +17,15 @@ class ViewController: UIViewController {
 
     @IBAction func didTapHere(_ sender: Any) {
         let flutterViewController = FlutterViewController()
+        flutterViewController.title = "Login"
         flutterViewController.setInitialRoute("/flutterView")
+        let platformChannel = FlutterMethodChannel(name: "RN.Flutter-iOS/platform",
+                                                  binaryMessenger: flutterViewController)
+        platformChannel.setMethodCallHandler({
+            (call: FlutterMethodCall, result: FlutterResult) -> Void in
+            let flutterDashBoardViewController = DashBoardViewController()
+            self.navigationController?.pushViewController(flutterDashBoardViewController, animated: true)
+        })
         self.navigationController?.pushViewController(flutterViewController, animated: true)
     }
     
