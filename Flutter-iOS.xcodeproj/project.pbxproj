@@ -364,7 +364,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Flutter-iOS/Pods-Flutter-iOS-frameworks.sh",
-				"${PODS_ROOT}/../my_flutter/.ios/Flutter/engine/Flutter.framework",
+				"${PODS_ROOT}/../../Flutter-iOS/my_flutter/.ios/Flutter/engine/Flutter.framework",
 				"${BUILT_PRODUCTS_DIR}/FlutterPluginRegistrant/FlutterPluginRegistrant.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
